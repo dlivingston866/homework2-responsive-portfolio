@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Portfolio</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+       
+        <a class="navbar-brand" href="#">Doug Livingston</a>
+       
+        <ul class="navbar-nav">
+         
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+   </nav>
+
+   <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 10 4px;
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+      max-width: 50%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 678px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    </style>
+    <body>
+    
+    <!-- Header -->
+    <div class="header">
+      <h1>My Portfolio</h1>
+    
+    </div>
+    
+   <div class="row">
+    <div class="column">
+      <img src="images/beach_view.jpg" alt="Beach View">
+      <img src="images/forrest_trail.jpg" alt="forrest Trail">
+      <img src="images/ocean_view.jpg" alt="Ocean View">
+      
+    </div>
+     <div class="column">
+      <img src="images/reflective_lake.jpg" alt="Reflective Lake">
+      <img src="images/waterfall.jpg" alt="Waterfall">
+
+     </div>
+    
+    
+  </div>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
